@@ -1,0 +1,210 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Momo+Signature:regular);
+
+
+* {
+    transition: 0.25s;
+}
+
+.container {
+    max-width: calc(100%);
+    margin: 0 auto;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.header-container {
+    border: 2px solid white;
+    height: 100%;
+    border-top: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.main-k {
+    height: 93vh;
+    background: #000000;
+}
+.main {
+    height: 93vh;
+    background: #000000;
+}
+
+.header {
+    background: #666;
+    background: #000000;
+    height: 7vh;
+    color: #ffffff;
+    font-family: Inter;
+}
+
+.h-logo-title {
+    font-family: Momo Signature;
+    font-size: 30px;
+}
+
+.acc-box {
+    height: 500px;
+    width: 400px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background: linear-gradient(120deg, rgba(255, 255, 255, 0.2) 25%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.2) 75%, rgba(255, 255, 255, 0.3) 100%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 10px;
+}
+
+.acc-box:hover {
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+.acc-t-l {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px 50px 0 0;
+    border-bottom: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 50px;
+    flex-direction: column  ;
+}
+.acc-t {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px 50px 0 0;
+    border-bottom: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 100px;
+    flex-direction: column  ;
+}
+
+.acc-t-r {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px 50px 0 0;
+    border-bottom: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    flex-direction: column  ;
+}
+
+.acc-title {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.acc-btn-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+
+.h-btns-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.a-btn {
+    width: 80%;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-family: Inter;
+    cursor: pointer;
+    outline: none;
+}
+
+.back-btn {
+    width: 40%;
+    height: 50px;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-family: Inter;
+    cursor: pointer;
+    outline: none;
+}
+
+.a-btn:hover {
+    background: rgba(255, 255, 255, 0.25);
+    transition: 0.25s linear;
+}
+
+.acc-text {
+    font-family: Inter;
+    font-size: 16px;
+}
+
+.acc-a {
+    font-family: Inter;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+.n-inp {
+    width: 48%;
+    padding-left: 10px;
+}
+
+.g-box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: start;
+}
+
+.r {
+    color: white;
+    background: white;
+}
+
+.auto {
+    font-size: 150px;
+    font-weight: 600;
+    color: white;
+    font-family: Inter;
+    text-align: center;
+}
+
+.h {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
